@@ -1,0 +1,8 @@
+de是检测图片文件夹的
+detect video是检测视频的
+generate background是生成背景图的
+camera是检测监控摄像头的
+camera+Bytetrack是检测监控摄像头加上了跟踪的
+VehicleTimer是计算停车时长的类
+videobytetrack是用来检测视频加了跟踪，并且计算停车时长判定的
+videobytetrack不用类是用来检测视频加了跟踪，并且计算停车时长判定的，但没有用VehicleTimer，就是那个功能没整合，上面一个是整合这个功能成一个类直接调用的。
