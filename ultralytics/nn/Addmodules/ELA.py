@@ -72,7 +72,7 @@ class ELA(nn.Module):
 
     def forward(self, x):
         B, C, H, W = x.size()
-        identity = x  # 保留原始特征
+        identity = x
         
         # ========== 通道注意力分支 ==========
         ch_att = self.ch_att(x)  # [B,C,1,1]
